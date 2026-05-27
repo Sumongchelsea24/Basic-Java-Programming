@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Addition{
+
+    public static void main (String args[]){
+
+        Scanner s =new Scanner(System.in);
+        System.out.println("Enter the first Number:");
+         int a= s.nextInt();
+        System.out.println("Enter the Second Number:");
+        int b= s.nextInt();
+
+
+        int c= a+b;
+        System.out.println("The sum of two number is :" +c);
+    }
+}
