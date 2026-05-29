@@ -166,5 +166,5 @@ public class Loops {
   //   } else {
   //     System.out.println(originalNum + " is not a palindrome number.");
   //   }
-  //     }
-  //   }
+      }
+    }
