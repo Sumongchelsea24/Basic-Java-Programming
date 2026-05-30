@@ -153,18 +153,18 @@ public class Loops {
     // }
 //palindrome number means a number that is the same when reversed
 //In nepali palindrome number vaneko tyo number ho jun ulto garda pani tyo number jasto huncha
-  //    int num = 12321;
-  // int originalNum = num;
-  // int reversedNum = 0;
-  // while (num > 0) {
-  //    int digit = num % 10;
-  //   reversedNum = reversedNum * 10 + digit;
-  //   num /= 10;
-  // } 
-  //   if (reversedNum == originalNum) {
-  //     System.out.println(originalNum + " is a palindrome number.");
-  //   } else {
-  //     System.out.println(originalNum + " is not a palindrome number.");
-  //   }
+     int num = 12321;
+  int originalNum = num;
+  int reversedNum = 0;
+  while (num > 0) {
+     int digit = num % 10;
+    reversedNum = reversedNum * 10 + digit;
+    num /= 10;
+  } 
+    if (reversedNum == originalNum) {
+      System.out.println(originalNum + " is a palindrome number.");
+    } else {
+      System.out.println(originalNum + " is not a palindrome number.");
+    }
       }
     }
