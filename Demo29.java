@@ -1,0 +1,34 @@
+
+public class Demo29 {
+  public static void main(String[] args) {
+    Vehicle v = new Car();
+    v.drive();
+    // Vehicle.brake();
+  }
+}
+// After Java 8 -->Default Methods,static Methods,private
+// List Interface --> methods
+
+interface Vehicle {
+  default void drive() {
+    System.out.println("Vehicle is driving");
+    accelerate();
+  };
+
+  static void brake() {
+    System.out.println("Vehicle is applying brake");
+  }
+
+  private void accelerate() {
+    System.out.println("Vehicle is Accelerating");
+  }
+}
+
+class Car implements Vehicle {
+  @Override
+  public void drive() {
+    System.out.println("Car is driving");
+
+  }
+
+}
